@@ -5,10 +5,11 @@
 export const environment = {
   production: false,
   appName: 'Udagram',
-  apiHost: 'http://localhost:8080/api/v0'
+  apiHost: 'http://a5202f68ffed54fff8aa08a774e38373-67471488.us-east-2.elb.amazonaws.com:8080/api/v0'
+  
 };
 
-/*
+/*kubectl get deployments
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
  *
