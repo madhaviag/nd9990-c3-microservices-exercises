@@ -10,6 +10,8 @@ services:
         - udagram-api-feed
   udagram-api-user:
     image: madhaviag/udagram-api-user:v10
+    volumes:
+      - $HOME/.aws:/root/.aws
     environment:
       POSTGRES_USERNAME: $POSTGRES_USERNAME
       POSTGRES_PASSWORD: $POSTGRES_PASSWORD 
